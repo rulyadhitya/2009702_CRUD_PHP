@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.125);
+    padding: 30px;
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #00579e;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+label {
+    width: 15rem;
+    float: left;
+    text-align: left;
+    margin-right: 0.5em;
+    display: block;
+}
+
+input {
+    color: #000;
+    border: 1px solid #6f818f;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 600px;
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+#submit {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #00579e;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+#reset {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #DC3545;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
